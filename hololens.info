@@ -1,0 +1,27 @@
+name = Hololens
+description = Meer uitleg over de hololens van Microsoft
+package = Core
+version = VERSION
+core = 7.x
+stylesheets[screen][] = app.css
+scripts[] = app.js
+
+
+regions[landing] = Landing
+regions[info-1] = Info-1
+regions[info-2] = Info-2
+regions[info-2-photo] = Info-2-photo
+
+
+regions[content] = Content
+regions[video] = Video
+regions[buy] = Buy
+regions[social] = Social
+regions[faq] = Faq
+regions[apps] = Apps
+regions[contact] = Contact
+regions_hidden[] = sidebar_first
+
+; Information added by Drupal.org packaging script on 2016-07-07
+version = "7.50"
+project = "drupal"
